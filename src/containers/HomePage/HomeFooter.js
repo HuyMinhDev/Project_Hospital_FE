@@ -10,7 +10,6 @@ class HomeFooter extends Component {
           &copy; 2025 Booking care. | Design by <b>Minh Huy</b> | More
           information, please visit our hospital.{" "}
           <a target="_blank" href="#">
-            {" "}
             &#8594; Click here &#8592;
           </a>
         </p>
