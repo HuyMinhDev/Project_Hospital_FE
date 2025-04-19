@@ -27,7 +27,7 @@ class Header extends Component {
           <span className="welcome">
             <FormattedMessage id="homeheader.welcome" />,{" "}
             {userInfo && userInfo.firstName ? userInfo.firstName : ""}{" "}
-            <i class="fa-solid fa-user"></i>
+            <i className="fa-solid fa-user"></i>
           </span>
 
           <span

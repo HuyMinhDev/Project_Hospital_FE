@@ -8,6 +8,8 @@ import {
   userIsAuthenticated,
   userIsNotAuthenticated,
 } from "../hoc/authentication";
+import "react-toastify/dist/ReactToastify.css";
+
 import { path } from "../utils";
 import Home from "../routes/Home";
 import Login from "./Auth/Login";
@@ -56,8 +58,18 @@ class App extends Component {
                 </Switch>
               </CustomScrollbars>
             </div>
-
             <ToastContainer
+              position="top-right"
+              autoClose={3000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+            />
+            {/* <ToastContainer
               className="toast-container"
               toastClassName="toast-item"
               bodyClassName="toast-item-body"
@@ -68,7 +80,7 @@ class App extends Component {
               closeOnClick={false}
               draggable={false}
               closeButton={<CustomToastCloseButton />}
-            />
+            /> */}
           </div>
         </Router>
       </Fragment>

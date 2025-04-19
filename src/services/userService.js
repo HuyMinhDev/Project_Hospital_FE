@@ -13,7 +13,7 @@ const crateNewUserService = (data) => {
   return axios.post("/api/create-new-user", data);
 };
 
-const deteleUserService = (userId) => {
+const deleteUserService = (userId) => {
   // return axios.delete("/api/delete-user", { id: userId });
   return axios.delete("/api/delete-user", {
     data: {
@@ -30,11 +30,16 @@ const getAllCodeService = (inputTpye) => {
   return axios.get(`/api/allcode?type=${inputTpye}`);
 };
 
+const getTopDoctorHomeService = (limit) => {
+  return axios.get(`/api/top-doctor-home?limit=${limit}`);
+};
+
 export {
   handleLoginApi,
   getAllUsers,
   crateNewUserService,
-  deteleUserService,
+  deleteUserService,
   editUserService,
   getAllCodeService,
+  getTopDoctorHomeService,
 };

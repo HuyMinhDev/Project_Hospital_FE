@@ -5,7 +5,7 @@ import "./UserManage.scss";
 import {
   getAllUsers,
   crateNewUserService,
-  deteleUserService,
+  deleteUserService,
   editUserService,
 } from "../../services/userService";
 import ModalUser from "./ModalUser";
@@ -71,7 +71,7 @@ class UserManage extends Component {
 
   handleDeleteUser = async (user) => {
     try {
-      let res = await deteleUserService(user.id);
+      let res = await deleteUserService(user.id);
       if (res && res.errCode === 0) {
         await this.getAllUsersFromReact();
       } else {
@@ -161,10 +161,7 @@ class UserManage extends Component {
                           <i className="fas fa-pencil-alt"></i>
                         </button>
 
-                        <button
-                          className="btn-delete"
-                          onClick={() => this.handleDeleteUser(item)}
-                        >
+                        <button onClick={() => this.handleDeleteUser(item)}>
                           <i className="fas fa-trash-alt"></i>
                         </button>
                       </td>
