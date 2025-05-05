@@ -38,6 +38,10 @@
   }
 }
 
+.slick-disabled {
+  display: none !important;
+}
+
 .section-share {
   &.section-outstanding-doctor {
     // background-image: url("../../assets/outstanding-doctor/bg_bac_si_noi_bat.png");
@@ -147,7 +151,7 @@
       cursor: pointer;
 
       .tittle-chucvu {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
       }
       &:hover {
@@ -180,7 +184,7 @@
       cursor: pointer;
 
       .tittle-chucvu {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
       }
       &:hover {
@@ -201,6 +205,7 @@
   }
   .section-customize {
     padding: 5px;
+    cursor: pointer;
     .customize-boder {
       // border: 1px solid orange;
       padding: 15px 20px 20px 20px;
@@ -211,7 +216,7 @@
       cursor: pointer;
 
       .tittle-chucvu {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
       }
       &:hover {
@@ -241,7 +246,7 @@
       cursor: pointer;
 
       .tittle-chucvu {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
       }
       &:hover {

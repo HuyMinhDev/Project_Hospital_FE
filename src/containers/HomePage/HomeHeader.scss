@@ -171,11 +171,11 @@
     .options {
       text-align: center;
       display: flex;
-      gap: 50px;
+      gap: 4rem;
       justify-content: center;
 
       .options-child {
-        width: 125px;
+        width: 7.8125rem;
         cursor: pointer;
         .icon-child {
           background: white;
@@ -198,7 +198,7 @@
           }
         }
         .text-child {
-          font-size: 17px;
+          font-size: 1rem;
           font-weight: 500;
           transition: all 0.3s;
           cursor: pointer;

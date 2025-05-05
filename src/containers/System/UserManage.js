@@ -161,7 +161,10 @@ class UserManage extends Component {
                           <i className="fas fa-pencil-alt"></i>
                         </button>
 
-                        <button onClick={() => this.handleDeleteUser(item)}>
+                        <button
+                          className="btn-delete"
+                          onClick={() => this.handleDeleteUser(item)}
+                        >
                           <i className="fas fa-trash-alt"></i>
                         </button>
                       </td>
