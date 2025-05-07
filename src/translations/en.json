@@ -86,9 +86,19 @@
     "manage-doctor": {
       "title": "Create more doctors information",
       "select-doctor": "Choose a doctor",
+      "select-doctor-pl": "-- Choose doctor --",
       "intro": "Introduction",
       "add": "Create information",
-      "save": "Save information"
+      "save": "Save information",
+      "price": "Price",
+      "price-pl": "-- Choose price --",
+      "payment": "Payment",
+      "payment-pl": "-- Choose payment --",
+      "province": "Province",
+      "province-pl": "-- Choose province/city --",
+      "nameClinic": "Clinic's name",
+      "addressClinic": "Clinic's address",
+      "note": "Note"
     }
   }
 }
