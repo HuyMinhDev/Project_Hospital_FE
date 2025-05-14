@@ -4,7 +4,6 @@
 
   .intro-doctor {
     display: flex;
-    border: 1px solid green;
 
     .content-left {
       width: 20%;
@@ -18,7 +17,6 @@
     }
     .content-right {
       width: 80%;
-      border: 1px solid blue;
       display: flex;
       flex-direction: column;
       padding-left: 10px;

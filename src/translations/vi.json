@@ -80,6 +80,37 @@
       "no-schedule": "Bác sĩ Không có lịch hẹn trong thời gian này, vui lòng chon thời gian khác!",
       "choose": "Chọn",
       "book-free": "và đặt (miễn phí)"
+    },
+    "extra-infor-doctor": {
+      "text-address": "Địa chỉ khám",
+      "price": "Giá khám",
+      "detail-all": "Xem chi tiết",
+      "title-price": "Thông tin chi tiết: ",
+      "detail-infor": "Người bệnh có thể thanh toán chi phí bằng hình thức: ",
+      "detail": "Ẩn bảng giá"
+    },
+    "booking-modal": {
+      "title-modal": "Thông tin đặt lịch khám bệnh",
+      "fullName": "Họ tên",
+      "phoneNumber": "Số điện thoại",
+      "email": "Địa chỉ Email",
+      "address": "Địa chỉ liên hệ",
+      "reason": "Lý do khám",
+      "birthday": "Ngày sinh",
+      "gender": "Giới tính",
+      "btnComform": "Xác nhận",
+      "btnCancel": "Hủy",
+      "priceBooking": "Miễn phí đặt lịch",
+      "price": "Giá khám"
+    },
+    "placeholder": {
+      "fullNamepl": "Nhập họ tên",
+      "phoneNumberpl": "Nhập số điện thoại",
+      "emailpl": "Nhập email",
+      "addresspl": "Nhập địa chỉ liên hệ",
+      "reasonpl": "Nhập lý do khám",
+      "birthdaypl": "Chọn ngày sinh",
+      "genderpl": "Chọn giới tính"
     }
   },
   "admin": {
